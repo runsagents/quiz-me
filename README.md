@@ -4,7 +4,7 @@ Your agents wrote the code. Can you still answer for it?
 
 `quiz-me` turns your coding agent into an honest examiner. It reads what changed in your repo recently, asks you 8 questions — mostly "why is it built this way?" and "what breaks if X fails?" — grades you out of 8 without flattery, and re-explains what you missed.
 
-Because investors, customers, and incidents don't interview your agents. They interview you. It's also the fastest way to learn what your agents quietly figured out about your project — and you move faster when you actually understand what you're shipping.
+Because investors, customers, and incidents don't interview your agents. They interview you. The payoff is concrete: you brief agents with real constraints so first attempts land, you kill wrong plans at the spec stage instead of after a burned day, debugging stops being archaeology — and you find out what your agents figured out about your project and never mentioned.
 
 ## Install
 
@@ -29,6 +29,10 @@ I run this weekly on my own fintech, where agents write essentially all the code
 Works anywhere an agent can read your repo and a file: Claude Code, Codex, Cursor, and other skills-aware agents. Grading quality depends on the model and on your git history — squash-everything repos give it less to work with. It is an exam for **you**, not a code review; run your review gates separately.
 
 Version: v1.0.0 · License: CC0 (public domain — take it, no credit needed)
+
+## Pairs well with
+
+[grill-me](https://github.com/mattpocock/skills) interrogates your *plan* before the agents build. quiz-me examines *you* after they ship. Before and after.
 
 ## Prior art
 
