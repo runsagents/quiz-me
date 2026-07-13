@@ -4,19 +4,19 @@ Your agents wrote the code. Can you still answer for it?
 
 `quiz-me` turns your coding agent into an honest examiner. It reads what changed in your repo recently, asks you 8 questions — mostly "why is it built this way?" and "what breaks if X fails?" — grades you out of 8 without flattery, and re-explains what you missed.
 
-Because investors, customers, and incidents don't interview your agents. They interview you.
+Because investors, customers, and incidents don't interview your agents. They interview you. It's also the fastest way to learn what your agents quietly figured out about your project — and you move faster when you actually understand what you're shipping.
 
 ## Install
 
 ```
-npx skills add shushukurov/quiz-me
+npx skills add runsagents/quiz-me
 ```
 
 Works with Claude Code, Codex, Cursor, and anything else that reads skills. Then say **"quiz me"** in your repo.
 
 No installer? Tell your agent:
 
-> Read https://raw.githubusercontent.com/shushukurov/quiz-me/main/QUIZ_ME.md and quiz me on this repo
+> Read https://raw.githubusercontent.com/runsagents/quiz-me/main/QUIZ_ME.md and quiz me on this repo
 
 ## The ritual
 
