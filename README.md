@@ -24,6 +24,12 @@ I run this weekly on my own fintech, where agents write essentially all the code
 
 — [@runsagents](https://x.com/runsagents)
 
+## Compatibility & limitations
+
+Works anywhere an agent can read your repo and a file: Claude Code, Codex, Cursor, and other skills-aware agents. Grading quality depends on the model and on your git history — squash-everything repos give it less to work with. It is an exam for **you**, not a code review; run your review gates separately.
+
+Version: v1.0.0 · License: CC0 (public domain — take it, no credit needed)
+
 ## Prior art
 
 The quiz idea was championed in [A Field Guide to Claude: Finding Your Unknowns](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns) by Thariq Shihipar (Anthropic) — don't merge what you can't pass a quiz on. Related tools: [change-quiz](https://github.com/Neeeophytee/finding-unknowns-skills), [pr-quiz](https://github.com/dkamm/pr-quiz). quiz-me is the standalone, zero-dependency version of the ritual, framed for the people who answer for the code. Anthropic's [own research](https://www.anthropic.com/research/AI-assistance-coding-skills) found AI-assisted developers scored 17% lower on comprehension quizzes — that gap is the point.
