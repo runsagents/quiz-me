@@ -20,7 +20,7 @@ No installer? Tell your agent:
 
 ## The ritual
 
-I run this weekly on my own fintech, where agents write essentially all the code. Eight questions on whatever shipped that week. Below 6 of 8, I study and retake. The product isn't mine until I pass.
+I run this weekly on my own fintech, where agents write most of the code. Eight questions on whatever shipped that week. Below 6 of 8, I study and retake. The product isn't mine until I pass.
 
 ,  [@runsagents](https://x.com/runsagents)
 
