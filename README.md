@@ -37,3 +37,7 @@ Version: v1.0.0 · License: CC0 (public domain, take it, no credit needed)
 ## Prior art
 
 The quiz idea was championed in [A Field Guide to Claude: Finding Your Unknowns](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns) by Thariq Shihipar (Anthropic), don't merge what you can't pass a quiz on. Related tools: [change-quiz](https://github.com/Neeeophytee/finding-unknowns-skills), [pr-quiz](https://github.com/dkamm/pr-quiz). quiz-me is the standalone, zero-dependency version of the ritual, framed for the people who answer for the code. Anthropic's [own research](https://www.anthropic.com/research/AI-assistance-coding-skills) found AI-assisted developers scored 17% lower on comprehension quizzes, that gap is the point.
+
+## Terminology & prior art
+This pattern is known in the field as [retrieval practice](https://doi.org/10.1126/science.1152408), related to [comprehension debt](https://www.oreilly.com/radar/comprehension-debt-the-hidden-cost-of-ai-generated-code/).
+This implementation quizzes developers on recent changes and grades their answers to expose gaps in understanding.
