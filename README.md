@@ -1,5 +1,21 @@
 # quiz-me
 
+| | |
+|---|---|
+| **Problem** | Agents write the code; you stop being able to answer for it |
+| **Theory** | [Retrieval practice](https://doi.org/10.1126/science.1152408) strengthens memory more than re-reading |
+| **This tool** | Your agent quizzes you on recent changes and grades honestly |
+
+```mermaid
+flowchart LR
+  A[Recent changes] --> B[Eight questions]
+  B --> C[Your answers]
+  C --> D[Honest grade]
+  D --> E[Reteach missed ideas]
+  E -->|Below six of eight| F[Retake]
+```
+
+
 Your agents wrote the code. Can you still answer for it?
 
 `quiz-me` turns your coding agent into an honest examiner. It reads what changed in your repo recently, asks you 8 questions, mostly "why is it built this way?" and "what breaks if X fails?", grades you out of 8 without flattery, and re-explains what you missed.
